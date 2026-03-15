@@ -34,12 +34,12 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-6">
-          <img src="images/08.png" class="img-fluid mb-5">
+          <img id="patch" src="images/09a.png" class="img-fluid mb-5">
           <div class="d-none d-lg-block">
             <a href="https://www.instagram.com/p/CrEw125PYu_/" target="_blank">
-              <img src="images/drone.jpg" class="img-fluid mb-5">
+              <img src="images/drone.jpg" class="img-fluid mb-5 rounded">
             </a>
-            <img src="images/counting-is-bullshit.jpg" class="img-fluid mb-5">
+            <img src="images/counting-is-bullshit.jpg" class="img-fluid mb-5 rounded">
             <h3 class="lh-base">
               <strong>Do you want merch? YES YOU DO!</strong><br/>
               <a href="https://www.zeffy.com/en-US/ticketing/the-ladds-500-merch-booth" target="_blank">
@@ -57,10 +57,14 @@
             SOMETHING STUPID
           </h1>
 
+          <h3 class="mb-4 fw-bold">
+            The Ninth First Annual<br/>
+            for the Ten Year Anniversary
+          </h3>
+
           <h3 class="mb-4">
-            <b>The 8th First Annual</b><br/>
             Ladd Circle Park<br/>
-            April 12th, 2025<br/>
+            April 11th, 2026<br/>
             10am to 5pm
           </h3>
 
@@ -68,9 +72,9 @@
             500 laps of Ladd Circle is a century. Form teams of at least one person, switch riders or equipment at least 10 times during your laps, and turn left for a while. If you’re not riding, let’s party in the middle.
           </h3>
 
-          <h2 class="border border-5 border-warning mb-5 p-2 fw-bold rounded">
+          <h1 class="border border-5 border-info-subtle mb-5 p-4 fw-bold rounded d-inline-block">
             "IT'S NOT A RACE, <br/> IT'S A <span class="text-decoration-line-through">RELAY</span> PARADE"
-          </h2>
+          </h1>
 
           <h3 class="mb-3 fw-bold">The Rules</h3>
           <ul class="mb-5 list-group fs-5 mx-auto">
@@ -96,9 +100,9 @@
 
           <div class="d-lg-none">
             <a href="https://www.instagram.com/p/CrEw125PYu_/?igshid=MDJmNzVkMjY%3D" target="_blank">
-              <img src="images/drone.jpg" class="img-fluid mb-5">
+              <img src="images/drone.jpg" class="img-fluid mb-5 rounded">
             </a>
-            <img src="images/counting-is-bullshit.jpg" class="img-fluid mb-5">
+            <img src="images/counting-is-bullshit.jpg" class="img-fluid mb-5 rounded">
             <h3 class="lh-base">
               <strong>Do you want merch? YES YOU DO!</strong><br/>
               <a href="https://www.zeffy.com/en-US/ticketing/the-ladds-500-merch-booth" target="_blank">
@@ -122,5 +126,10 @@
       </div>
     </div>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <script>
+      if (Math.random() > 0.5) {
+        document.getElementById("patch").src = "images/09b.png";
+      }
+    </script>
   </body>
 </html>
